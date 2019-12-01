@@ -324,7 +324,7 @@ endef
 TARGET_DEVICES += tl-wdr3320-v2
 
 define Device/tl-wr1041n-v2
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR1041N v2
   BOARDNAME := TL-WR1041N-v2
   DEVICE_PROFILE := TLWR1041
