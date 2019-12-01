@@ -10,11 +10,11 @@
 name: x86
 
 on:
-  schedule:
-    - cron: 0 20 * * *
-  # push:
-  #   branches: 
-  #     - master
+  # schedule:
+  #   - cron: 0 20 * * *
+  push:
+    branches: 
+      - master
 
 jobs:
   build:

@@ -100,12 +100,12 @@ jobs:
           # 编译固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ar71xx=y
-          CONFIG_TARGET_ar71xx_tiny=y
-          CONFIG_TARGET_ar71xx_tiny_DEVICE_tl-wr1041n-v2=y
+          CONFIG_TARGET_ar71xx_generic=y
+          CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr7500-v3=y
           CONFIG_HAS_SUBTARGETS=y
           CONFIG_TARGET_BOARD="ar71xx"
-          CONFIG_TARGET_SUBTARGET="tiny"
-          CONFIG_TARGET_PROFILE="DEVICE_tl-wr1041n-v2"
+          CONFIG_TARGET_SUBTARGET="generic"
+          CONFIG_TARGET_PROFILE="DEVICE_tl-wdr7500-v3"
           CONFIG_TARGET_ARCH_PACKAGES="mips_24kc"
           CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
           CONFIG_TARGET_ROOTFS_SQUASHFS=y
