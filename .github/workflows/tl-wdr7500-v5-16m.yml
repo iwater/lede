@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: tl-wr1041n-v2
+name: tl-wdr7500-v5-16m
 
 on:
   # schedule:

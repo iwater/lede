@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: tl-wr1041n-v2
+name: tl-wr1041n-v2-16m
 
 on:
   # schedule:
