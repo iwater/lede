@@ -99,6 +99,35 @@ jobs:
 
           # 编译arm固件:
           cat >> .config <<EOF
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_BZIP2 is not set
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_GZIP is not set
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_LZ4 is not set
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_LZMA is not set
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_LZO is not set
+          # CONFIG_TARGET_INITRAMFS_COMPRESSION_XZ is not set
+          # CONFIG_TARGET_INITRAMFS_FORCE is not set
+          # CONFIG_TARGET_MULTI_PROFILE is not set
+          # CONFIG_TARGET_mvebu_cortexa53 is not set
+          # CONFIG_TARGET_mvebu_cortexa72 is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_cznic_turris-omnia is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_globalscale_mirabox is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt1200ac is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt1900ac is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt1900acv2 is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt3200acm is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt32x is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_a370-db is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_a370-rd is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_a385-db-ap is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_a388-rd is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_axp-db is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_marvell_axp-gp is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_plathome_openblocks-ax3-4 is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_solidrun_clearfog-base-a1 is not set
+          # CONFIG_TARGET_mvebu_cortexa9_DEVICE_solidrun_clearfog-pro-a1 is not set
+          # CONFIG_TARGET_x86 is not set
+          # CONFIG_TARGET_x86_64 is not set
+          # CONFIG_TARGET_x86_64_Generic is not set
           CONFIG_TARGET_ARCH_PACKAGES="arm_cortex-a9_vfpv3"
           CONFIG_TARGET_BOARD="mvebu"
           CONFIG_TARGET_INITRAMFS_COMPRESSION_NONE=y
