@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: x86
+name: netgear-r8000
 
 on:
   # schedule:
