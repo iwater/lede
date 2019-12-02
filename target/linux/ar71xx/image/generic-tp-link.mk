@@ -127,7 +127,7 @@ endef
 TARGET_DEVICES += archer-c7-v2-il
 
 define Device/tl-wdr7500-v3
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK Archer C7 v3
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport kmod-ath10k ath10k-firmware-qca988x
   BOARDNAME := ARCHER-C7
