@@ -21,5 +21,5 @@ generate_china_banned() {
 
 generate_china_banned /tmp/gfw.b64 >/tmp/gfw.txt
 rm -f /tmp/gfwlist.txt
-sed '/.*/s/.*/server=\/\.&\/127.0.0.1#5335\nipset=\/\.&\/gfwlist/' /tmp/gfw.txt >/tmp/gfwnew.txt
+sed '/.*/s/.*/server=\/\.&\/192.168.1.2#53\nipset=\/\.&\/gfwlist/' /tmp/gfw.txt >/tmp/gfwnew.txt
 rm -f /tmp/gfw.txt
